@@ -1,0 +1,580 @@
+body, html,main,dashboard-wrapper {
+  margin: 0px;
+  width: 100%;
+}
+#top-nav{
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0% 2%;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.4);
+}
+#top-nav a{
+  display: flex;
+  align-items: center;
+}
+#nav-main{
+  display: flex;
+  justify-content: space-evenly;
+  padding:0.1%;
+  align-items: center;
+}
+#nav-main a{
+  border: 1px solid gray;
+  text-align: center;
+  flex-basis: 100% ;
+  padding:1%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#logo img{
+  width: 158px;
+}
+#top-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fff;
+  padding: 2% 5%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to top right, #FFFFFF, #CEE4F8);
+  margin-top: 4px;
+}
+#header-nav{
+  width: 45vw;
+  display:flex;
+  justify-content: space-evenly;
+}
+#header-nav > *{
+  padding: 5px;
+}
+#header-nav > *{
+  padding: 5px;
+}
+.fullStar{
+  color: yellow;
+  font-size: 22px;
+}
+.emptyStar{
+  color: #D2D2D2;
+  font-size: 22px;
+}
+#fullName {
+  align-items: center;
+  height: 30px;
+  width: 222px;
+}
+#fullName i{
+  margin-bottom: 3%;
+  font-size: 20px;
+  color: #39A137;
+  text-align: center;
+  padding-left: 13px;
+}
+.info h5{
+  font-size: 20px;
+}
+.myprogress{
+  width: 2.1rem;
+  height: 0.4rem;
+  background-color: #39A137;
+  border-radius: 20px;
+  margin-right: 1%;
+}
+#complete p{
+  font-weight: bold;
+  padding-right: 2%;
+}
+#complete a{
+  text-decoration: none;
+  color: #5396D3;
+  font-size: 16px;
+}
+#complete i{
+  font-size: 120%;
+  padding-left: 10px;
+}
+#img-div img:first-child {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 0.2rem solid #788690 ;
+}
+#verificate{
+  position: absolute;
+  left: 85%;
+  top: 72%;
+  width: 26%;
+  transform: translateX(-50%);
+}
+#img-div {
+  width:28.5vh;
+  height: 27.5vh;
+  margin: 0 auto;
+  position: relative;
+  max-width: 257px;
+  max-height: 250px;
+}
+#about{
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+#upload{
+  text-decoration: none;
+  color: #5396D3;
+  font-size: 0.9em;
+}
+#uploadDiv{
+  width: 100%;
+  border: 1.6px solid #5396D3;
+  border-radius: 10px;
+  margin-top: 3.5%;
+  margin-bottom: 3.5%;
+}
+#image{
+  flex-direction: column;
+  width: 57vw;
+  max-width: 300px;
+}
+.hide {
+  display: none !important;
+}
+hr{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 1px;
+}
+#profile-info{
+  border: 1px solid rgba(177, 172, 172, 0.4);
+  border-radius: 10px;
+  margin: 20px;
+  width: 80%;
+}
+#sectionInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#lista {
+  list-style-type: none;
+  padding: 0;
+}
+#lista> li {
+  padding: 24px 19px 0 19px;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+#lista>li>p {
+  margin: 0;
+}
+#social-icons{
+  display: flex;
+  justify-content: center;
+}
+#social-icons>ul{
+  list-style-type:none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 278px;
+  height: 57px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+#social-icons>ul>li>img{
+  width: 40px;
+  height: 40px;
+}
+#manage-your-acc{
+  padding-left: 10%;
+  padding-bottom: 8%;
+}
+#manage-your-acc>h5{
+  padding-left:10px;
+}
+#manage-your-acc>form>div{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+#manage-your-acc input,select,textarea{
+  border-radius: 4px;
+}
+#manage-your-acc p{
+  color: gray;
+  font-size: 18px;
+  width: 90%;
+}
+#manage-your-acc p a{
+  color: #5396D3;
+}
+#manage-your-acc form{
+  align-self: center;
+  width: 90%;
+}
+#postalCity input{
+  width: 49%;
+}
+#postalCity{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#dashboard{
+  display: none;
+}
+/*verification section*/
+#verification-section{
+  display: flex;
+  flex-direction: column;
+  padding:0 1% 8% 10% ;
+}
+#verification-section>div>p{
+  margin:0;
+}
+#verification-section>div>span{
+  padding-top: 6px;
+  padding-bottom: 10px;
+  position: relative;
+}
+#verification-section>div>span>input{
+  width: 77%;
+  border-radius: 5px;
+  height: 30px;
+}
+.editBtn{
+  text-decoration: none;
+  border: 1px solid gray;
+  color: gray;
+  padding: 3px 13px;
+  margin-left: 17px;
+  border-radius: 5px;
+}
+.input-container {
+  padding-top: 38px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.input-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+.input-container input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 50px;
+}
+.input-container img.input-flag {
+  position: absolute;
+  width: 47px;
+  height: 30px;
+}
+.input-container img.input-done {
+  position: absolute;
+  left: 2%;
+  transform: translateY(0px);
+}
+#verification-section p {
+  font-size: 14px;
+}
+/*card details*/
+#card-section{
+  display: grid;
+  padding-left: 10%;
+  padding-right: 1%;
+}
+.subTitle{
+  font-size: 16px;
+  color: gray;
+}
+.card-div{
+  display: flex;
+  flex-direction: column;
+  width: 91%;
+}
+#card-div input{
+  margin-bottom: 17px;
+  margin-top: 12px;
+  border-radius: 5px;
+}
+.buttom{
+  border: 1px solid #0089CA;
+  background-color: #0089CA;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 181px;
+  justify-self: center;
+  margin: 5% 0 10% 18%;
+}
+#payout-section{
+  display: grid;
+  padding-left: 10%;
+}
+#imageForCash{
+  display: flex;
+  justify-content: flex-start;
+}
+#imageForCash p{
+  padding-left: 20px;
+}
+#licences{
+  display: none;
+  flex-direction: column;
+  padding-right: 2%;
+  padding-bottom: 8%;
+  padding-left: 8%;
+}
+#licences div{
+  display: flex;
+  position: relative;
+}
+#licences input{
+  width: 58%;
+  height: 30px;
+  padding-left: 5%;
+}
+#licences a{
+  font-size: 14px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  margin-left: 1%;
+  text-decoration: none;
+  height: 30px;
+  padding:0 0.5%;
+  width: 29%;
+  text-align: center;
+  color: #313131;
+}
+.input-sign {
+  position: absolute;
+  left: 29.2%;
+  transform: translateY(10%);
+}
+.pl{
+  width:32%;
+}
+.cardVerification label{
+  padding-right: 3%;
+  align-self: center;
+}
+.cardVerification > *:first-child {
+  text-align: end;
+  flex: 0 0 28%;
+}
+.cardVerification > input {
+  flex: 0 0 45%;
+}
+.cardVerification{
+  padding-top: 38px;
+}
+#licences p{
+  padding-left: 28%;
+  font-size: 14px;
+}
+#nav-main a p{
+  display: none;
+}
+.disappear{
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  #image{
+      flex-direction: column;
+ }
+  #about{
+      width: 40vw;
+      max-width: 410px;
+ }
+  #profile-info{
+      border: 1px solid rgba(177, 172, 172, 0.4);
+      border-radius: 10px;
+      margin: 20px;
+ }
+  #manage-your-acc{
+      padding-left: 0;
+ }
+  #manage-your-acc h5,#manage-your-acc p{
+      padding-left: 10%;
+ }
+  #manage-your-acc div{
+      display: flex;
+      flex-direction: row;
+ }
+  #manage-your-acc label{
+      width: 30%;
+      text-align: right;
+      padding-right: 6%;
+ }
+  #manage-your-acc>form>div{
+      flex-direction: row;
+ }
+  #manage-your-acc input,select,textarea{
+      width: 78.5%;
+      height: 26%;
+      align-self: center;
+ }
+  #postalCity{
+      width: 79%;
+      display: flex;
+      justify-content: space-between;
+ }
+  #postalCity input{
+      width: 49%;
+      height: 27px;
+ }
+  #imageForCash{
+      justify-content: center;
+ }
+  .card-div{
+      flex-direction: row;
+      justify-content: flex-start;
+      width: 91%;
+      padding-bottom: 3%;
+ }
+  .card-div > *:first-child {
+      flex: 0 0 18%;
+      align-self: center;
+ }
+  .card-div > *:last-child {
+      flex: 0 0 60%;
+ }
+  .card-div p{
+      text-align: left;
+      padding: 0px;
+ }
+  .input-container{
+      flex-direction: row;
+      justify-content: flex-start;
+ }
+  .input-container label{
+      padding-right: 5%;
+      align-self: center;
+ }
+  .input-container > *:first-child {
+      text-align: end;
+      flex: 0 0 25%;
+ }
+  .input-container > *:last-child {
+      flex: 0 0 70%;
+ }
+  #verification-section p {
+      padding-left: 25%;
+ }
+  #licences{
+      display: flex;
+ }
+  #nav-main a p {
+      display: flex;
+      margin: 0;
+      padding-right: 5%;
+      color: #313131;
+ }
+  #nav-main a {
+      text-decoration: none;
+ }
+  #nav-main > *:last-child {
+      display: none !important;
+ }
+  #nav-main > *:first-child {
+      background-color: #5396D3;
+ }
+  #nav-main > *:first-child p {
+      color: #FFFFFF;
+ }
+  .disappear{
+      display: block;
+ }
+}
+@media screen and (min-width: 1024px) {
+  #top-header {
+      justify-content: flex-start;
+ }
+  #nav-main{
+      display: none;
+ }
+  #about{
+      margin: 0px;
+      padding-left: 4%;
+ }
+  #logo img{
+      width: 189px;
+ }
+  #menu{
+      position: absolute;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+      overflow: hidden;
+ }
+  #header-nav div{
+      padding-right: 5%;
+      width: 40%;
+ }
+  #header-nav div a{
+      padding-right: 5%;
+ }
+  #header-nav{
+      width: 70%;
+ }
+  #header-nav a{
+      font-size: 24px;
+      text-decoration: none;
+      color: #5396D3;
+ }
+
+  .hide{
+      display: flex !important;
+     ;
+ }
+  #dashboard-wrapper{
+      display: flex;
+      justify-content: flex-start;
+ }
+  #dashboard-wrapper > *:first-child {
+      flex: 0 0 30%;
+ }
+  #dashboard-wrapper > *:last-child {
+      flex: 0 0 60%;
+ }
+  #dashboard{
+      display: flex;
+      flex-direction: column;
+      padding-left: 5%;
+      margin-top: 5%;
+ }
+  #dashboard ul{
+      padding: 5%;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      border: 1px solid #D9D9D9;
+      width: 100%;
+      border-radius: 4px;
+ }
+  #dashboard li{
+      list-style: none;
+      border-bottom: 1px solid #D9D9D9;
+      margin-right: 5%;
+      font-size: 18px;
+      color: #313131;
+      padding: 3%;
+ }
+}
+#header-nav a img {
+  width: 100%;
+}
+
+
